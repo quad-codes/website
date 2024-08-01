@@ -113,7 +113,7 @@ export default function Home() {
   );
 }
 
-function CodeIcon(props) {
+function CodeIcon(props: { className: string }) {
   return (
     <svg
       {...props}
